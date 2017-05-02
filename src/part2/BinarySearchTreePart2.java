@@ -129,7 +129,6 @@ public class BinarySearchTreePart2 implements Runnable {
 		System.out.println("Matches : " + tree.equals(tree));
 	}
 	
-	// simple randomInteger function
 	public int randomInteger(int min, int max) {
 	    return new Random().nextInt((max-min)+1)+min;
 	}
